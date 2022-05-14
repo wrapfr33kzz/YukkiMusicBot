@@ -12,7 +12,7 @@ import asyncio
 
 from pyrogram import Client as c
 
-API_ID = input("\nEnter Your API_ID:\n > ")
+API_ID = input("\n Ali Please Enter your API id:\n > ")
 API_HASH = input("\nEnter Your API_HASH:\n > ")
 
 print("\n\n Enter Phone number when asked.\n\n")
