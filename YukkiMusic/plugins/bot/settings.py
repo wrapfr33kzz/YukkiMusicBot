@@ -463,6 +463,10 @@ async def authusers_mar(client, CallbackQuery, _):
                             text=_["CLOSE_BUTTON"],
                             callback_data=f"close",
                         ),
+                       InlineKeyboardButton(
+                            text=_["supporting channel https://t.me/DELTA_D_CODERS"],
+                            callback_data=f"close",
+                        ),
                     ]
                 ]
             )
