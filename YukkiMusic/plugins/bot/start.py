@@ -168,6 +168,8 @@ async def start_comm(client, message: Message, _):
                         InlineKeyboardButton(
                             text="🔄 Close", callback_data="close"
                         ),
+                      InlineKeyboardButton(
+                            text="suppoting channel https://t.me/DELTA_D_CODERS", callback_data="close"
                     ],
                 ]
             )
